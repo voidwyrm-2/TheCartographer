@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>11</LangVersion>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <Reference Include="../lib/*.dll">
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+    
+    <Target Name="GenerateMod" AfterTargets="PostBuildEvent">
+		<ItemGroup>
+			<RemoveFiles Include="../mod/plugins/*.dll" />
+            <RemoveFiles Include="../mod/plugins/*.pdb" />
+		</ItemGroup>
+		<ItemGroup>
+			<CopyPlugins Include="$(TargetPath)" />
+		</ItemGroup>
+		
+        <Delete Files="@(RemoveFiles)" />
+        <Copy SourceFiles="@(CopyPlugins)" DestinationFolder="../mod/plugins/" />
+        <Copy SourceFiles="$(TargetDir)TheCartographer.pdb" DestinationFolder="../mod/plugins/" />
+    </Target>
+    
+</Project>

@@ -1,0 +1,28 @@
+A slugcat sent by a distant iterator for mapping purposes who's made a home for himself in Chimney Canopy
+
+This is an updated version of the original because the codebase was so freaking terrible
+It has actual art, and code that doesn't look like it was made by an Italian
+I still freaking hate making rain world mods
+
+
+[b]Current Features:[/b]
+[list]
+    [*]Saint world state
+    [*]Custom starting region
+    [*]Spear crafting
+        [*]rock + rock = spear
+        [*]cherrybomb + spear = explosive spear
+        [*]rock + spear = electric spear
+    [*]Stat boosts when on mushrooms
+[/list]
+
+## don't include under this line
+
+This is partly inspired by Da Vinki
+
+'inspired' in that I saw Da Vinki was completely against drugs and said 'hold my non-alcoholic drink'
+So now Crypto is a druggie
+
+Have fun!
+
+#noIncludeEnd

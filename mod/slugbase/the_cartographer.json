@@ -1,0 +1,84 @@
+{
+	"id": "nc.cartographer",
+	"name": "The Cartographer",
+	"description": "A slugcat sent on a mission to map out a landscape changed by cold winds",
+	"features": {
+		"expedition_enabled": true,
+		"expedition_description": "With mushrooms getting scarce in the cold enviroment, The Cartographer is forced to scour the land to satiate his dependency",
+		"color": "94503e",
+		"custom_colors": [
+			{
+				"name": "Body",
+				"story": "94503e",
+				"arena": [
+					"94503e",
+					"ac3232",
+					"bfa6a6",
+					"63c64d"
+				]
+			},
+			{
+				"name": "Eyes",
+				"story": "8a6f30",
+				"arena": [
+					"8a6f30",
+					"8a6f30",
+					"d7ff63",
+					"147c80"
+				]
+			}
+		],
+		"auto_grab_batflies": false,
+		"back_spear": true,
+		"can_maul": false,
+		"maul_damage": 2,
+		"diet": {
+			"base": "Gourmand",
+			"corpses": 0.25,
+			"meat": 0.5,
+			"plants": 1.5,
+			"overrides": {
+				"DangleFruit": 1.5,
+				"SlimeMold": 2
+			}
+		},
+		"weight": 1.7,
+		"tunnel_speed": 1,
+		"climb_speed": 1.1,
+		"walk_speed": 1.2,
+		"crouch_stealth": [
+			6.5,
+			10.5
+		],
+		"throw_skill": [
+			1,
+			0
+		],
+		"lung_capacity": [
+			3.8,
+			2.6
+		],
+		"loudness": [
+			0.7,
+			0.2
+		],
+		"karma": 2,
+		"karma_cap": 6,
+		"the_glow": false,
+		"the_mark": true,
+		"start_room": "XK_Bedroom",
+		"guide_overseer": 1,
+		"cycle_length_min": 8,
+		"cycle_length_max": 19,
+		"food_min": 5,
+		"food_max": 10,
+		"world_state": "Saint",
+		"timeline_after": "Saint",
+		"timeline_before": "",
+		"perma_unlock_gates": false,
+		"select_menu_scene": "carto_select",
+		"select_menu_scene_ascended": "carto_ghost",
+		"sleep_scene": "carto_eepy",
+		"title_card": "TitleCard_Carto"
+	}
+}

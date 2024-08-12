@@ -1,0 +1,26 @@
+﻿{
+	"id": "nc.TheCartographer",
+	"name": "The Cartographer",
+	"version": "1.0.1",
+	"authors": "Nuclear Pasta",
+	"description": "A slugcat sent by a distant iterator for mapping purposes who's made a home for himself in Chimney Canopy",
+	"checksum_override": true,
+	"requirements": [
+		"slime-cubed.slugbase",
+		"improved-input-config",
+		"moreslugcats",
+		"regionkit",
+		"crs"
+	],
+	"requirements_names": [
+		"SlugBase",
+		"Improved Input Config",
+		"More Slugcats Expansion",
+		"Regionkit",
+		"Custom Regions Support"
+	],
+	"tags": [
+		"Custom Slugcat",
+		"Game Mechanics"
+	]
+}
